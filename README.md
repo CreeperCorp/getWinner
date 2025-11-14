@@ -1,0 +1,2 @@
+# getWinner
+Winner of votes
