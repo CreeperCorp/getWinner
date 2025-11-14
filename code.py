@@ -1,14 +1,11 @@
-votesDictionary = ['hello', 'good', 'goodbye', 'hello', 'hello', 'yes', 'good', 'good']
-candidateVotes = dict.fromkeys(votesDictionary)
-print(candidateVotes)
-for key in candidateVotes:
+votesDictionary = []
+candidateVotes = {}
+for key in votesDictionary:
     candidateVotes[key] = 0
-print(candidateVotes)
 def getWinner(x):
-  for vote in candidateVotes:
-    print(candidateVotes)
-    if vote in candidateVotes:
-        candidateVotes[vote] += 1
-    return candidateVotes
+  for vote in votesDictionary:
+      candidateVotes[vote] += 1
+      print(candidateVotes)
+  return candidateVotes
 
-print(getWinner(candidateVotes))
+print(getWinner(votesDictionary))
